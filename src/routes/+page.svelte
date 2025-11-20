@@ -25,62 +25,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Leveling the playing field"
+	text="We analyze startup investment opportunities using machine learning trained on patterns from top-tier venture firms. Series A founders gain access to institutional-grade deal insights and credible investor introductions—without needing warm connections. Think of it as having a world-class investment analyst and a well-connected partner on your team."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Arjun Mehta",
+			position: "Co-founder & CEO",
+			company: "Quantum Health",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We saved three months of networking time and connected with exactly the right Series A investors. The AI analysis highlighted deal risks we hadn't considered, which strengthened our pitch and helped us close at a 20% higher valuation.",
+			image: "/generated/image-documentary-style-professional-headshot-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Nia Williams",
+			position: "Founder & CEO",
+			company: "Zenith Analytics",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Instead of cold outreach with a 2% response rate, we secured warm introductions to tier-one VCs who actually understood our market. The platform's deal analysis saved us from pursuing three investors with misaligned portfolio strategies—that alone was worth months of wasted effort.",
+			image: "/generated/image-documentary-editorial-portrait-of-a-pois.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Kenji Tanaka",
+			position: "Co-founder & CEO",
+			company: "Meridian Systems",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We reduced our fundraising timeline from 8 months to 4 months by targeting investors with proven interest in our space. The institutional-grade analysis gave us credibility we didn't have as first-time founders, and we closed our Series A 30% oversubscribed.",
+			image: "/generated/image-editorial-style-professional-headshot-of.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for founders who demand excellence"
+	subtitle="Machine learning models trained on elite investment patterns to connect you with the right capital at the right time"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Elite investor matching",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Connect with top-tier VCs who have invested in companies like yours. Our AI analyzes your business model, traction, and market position to identify investors actively seeking deals in your space."
 		},
 		{
-			title: "Data Analysis",
+			title: "Institutional-grade deal analysis",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Get the same level of analysis that Sequoia and a16z use internally. Machine learning models evaluate your startup across 40+ dimensions that correlate with Series A success."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Investment pattern recognition",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Understand what top investors actually fund versus what they say they fund. Our models learn from thousands of successful deals to identify the characteristics that drive funding decisions."
+		},
+		{
+			title: "Credibility scoring",
+			description:
+				"Know exactly how investors will perceive your startup before you reach out. We score your company against the patterns that drive partner-level interest at prestige firms."
+		},
+		{
+			title: "Strategic introduction timing",
+			description:
+				"Reach out when investors are most receptive. Our platform tracks fund cycles, portfolio gaps, and market momentum to optimize your outreach timing."
+		},
+		{
+			title: "Deal flow intelligence",
+			description:
+				"Stay ahead of market trends with insights into what top VCs are funding right now. Understand competitive positioning and adjust your pitch accordingly."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Ready to close your Series A?"
+	subtitle="Join the founders who've already secured their funding"
+	description="Stop wasting months on cold outreach and misaligned investors. Get institutional-grade analysis and credible introductions to the VCs who want to fund companies like yours. Your next investor meeting could be your last."
+	imageSrc="/generated/image-a-confident-startup-founder-mid-30s-stan.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start your analysis",
+			variant: "primary"
+		},
+		{
+			href: "/schedule-demo",
+			label: "Schedule a demo",
+			variant: "secondary"
+		}
+	]}
+/>

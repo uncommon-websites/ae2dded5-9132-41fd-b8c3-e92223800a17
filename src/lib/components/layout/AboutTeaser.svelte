@@ -21,10 +21,13 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Alex Chen",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-professional-founder-in-a-modern-offic.webp"
 	};
+	
+	// Founder quote
+	const founderQuote = "I watched brilliant founders get passed over by top investors simply because they lacked the right introductions. We built this platform to change that equation—using AI trained on elite investment patterns to level the playing field for Series A companies that deserve access to prestige capital.";
 </script>
 
 <section bind:this={sectionRef} {...props}>
@@ -32,7 +35,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"${founderQuote}"`}
 			/>
 
 			<!-- Team Member & CTA Section -->
